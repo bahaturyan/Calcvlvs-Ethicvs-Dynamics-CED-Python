@@ -1,2 +1,19 @@
-# Calcvlvs-Ethicvs-Dynamics-CED-Python
-Python implementation of the DEC Whitepaper’s 9 experimental modules, providing reproducible simulations and structured demonstrations of the Calcvlvs Ethicvs Dynamicvs framework. Facilitates interactive experimentation, conceptual exploration, and preliminary informal peer review prior to official arXiv and JOSS publication.
+# Experiment 1: Pendulum vs Rock
+
+## Overview
+This experiment simulates two agent types interacting with a dynamic challenge signal:
+- **Rock**: rigid, static response
+- **Pendulum**: adaptive, time-dependent response
+
+Demonstrates differences in cumulative and instant utility.
+
+## Folder Structure
+- `main.py` : primary simulation code
+- `utils.py` : helper functions
+- `config.py` : parameter sets for reproducibility
+- `data/` : optional input datasets
+- `plots/` : optional generated outputs
+
+## Installation
+```bash
+pip install -r requirements.txt
